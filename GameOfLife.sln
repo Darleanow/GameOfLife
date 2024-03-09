@@ -5,14 +5,22 @@ VisualStudioVersion = 17.5.33502.453
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GameOfLife", "GameOfLife.vcxproj", "{54548038-45D4-45DA-8F5E-35E1C55E0126}"
 EndProject
+Project("{840C416C-B8F3-42BC-B0DD-F6BB14C9F8CB}") = "GolInstaller", "..\GolInstaller\GolInstaller.aiproj", "{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		All|x64 = All|x64
+		All|x86 = All|x86
 		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{54548038-45D4-45DA-8F5E-35E1C55E0126}.All|x64.ActiveCfg = Debug|x64
+		{54548038-45D4-45DA-8F5E-35E1C55E0126}.All|x64.Build.0 = Debug|x64
+		{54548038-45D4-45DA-8F5E-35E1C55E0126}.All|x86.ActiveCfg = Debug|Win32
+		{54548038-45D4-45DA-8F5E-35E1C55E0126}.All|x86.Build.0 = Debug|Win32
 		{54548038-45D4-45DA-8F5E-35E1C55E0126}.Debug|x64.ActiveCfg = Debug|x64
 		{54548038-45D4-45DA-8F5E-35E1C55E0126}.Debug|x64.Build.0 = Debug|x64
 		{54548038-45D4-45DA-8F5E-35E1C55E0126}.Debug|x86.ActiveCfg = Debug|Win32
@@ -21,6 +29,18 @@ Global
 		{54548038-45D4-45DA-8F5E-35E1C55E0126}.Release|x64.Build.0 = Release|x64
 		{54548038-45D4-45DA-8F5E-35E1C55E0126}.Release|x86.ActiveCfg = Release|Win32
 		{54548038-45D4-45DA-8F5E-35E1C55E0126}.Release|x86.Build.0 = Release|Win32
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.All|x64.ActiveCfg = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.All|x64.Build.0 = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.All|x86.ActiveCfg = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.All|x86.Build.0 = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.Debug|x64.ActiveCfg = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.Debug|x64.Build.0 = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.Debug|x86.ActiveCfg = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.Debug|x86.Build.0 = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.Release|x64.ActiveCfg = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.Release|x64.Build.0 = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.Release|x86.ActiveCfg = DefaultBuild
+		{7D1ABC67-FFD1-4C6D-BBFC-3D61494BC451}.Release|x86.Build.0 = DefaultBuild
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

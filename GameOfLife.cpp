@@ -73,7 +73,7 @@ int main() {
 	window.setFramerateLimit(60);
 
 	sf::Font font;
-	if (!font.loadFromFile("C:/Users/ehugo/Downloads/warden-regular-font/Warden.otf"))
+	if (!font.loadFromFile("Font/Warden.otf"))
 	{
 		std::cerr << "Couldn't load font \n";
 		return -1;
@@ -101,8 +101,8 @@ int main() {
 				sf::View resizedView(sf::FloatRect(0, 0, event.size.width, event.size.height));
 
 				window.setView(resizedView);
-				mainView.setSize(event.size.width * zoomFactor, event.size.height * zoomFactor); // Adjust mainView as well
-				mainView.setCenter(event.size.width / 2, event.size.height / 2); // Center the view
+				mainView.setSize(event.size.width * zoomFactor, event.size.height * zoomFactor);
+				mainView.setCenter(event.size.width / 2, event.size.height / 2);
 			}
 
 
